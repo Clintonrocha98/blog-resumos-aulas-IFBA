@@ -36,7 +36,7 @@ export default function Home() {
         </p>
       </section>
       <footer className="flex flex-col gap-5 mb-6">
-        <h3>Sobre o autor</h3>
+        <h2>Sobre o autor</h2>
         <p>
           Meu nome é{" "}
           <a
