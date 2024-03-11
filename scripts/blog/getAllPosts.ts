@@ -1,11 +1,16 @@
 import fs from "fs";
 import grayMatter from "gray-matter";
+import path from "path";
 import { remark } from "remark";
 import remarkHTML from "remark-html";
 
-export const getAllPostsByMateria = (materia: string) => {
-  const allPostsFileNames = fs.readdirSync(`public/posts/${materia}`);
+const TakePath = (pathName: string = "") => {
+  return path.join(process.cwd(), "public", "posts", pathName);
+};
 
+export const getAllPostsByMateria = (materia: string) => {
+  const allPostsFileNames = fs.readdirSync(TakePath(materia));
+  
   const posts = allPostsFileNames.map((filename: string) => {
     const fileContent = fs.readFileSync(
       `public/posts/${materia}/${filename}`,
@@ -30,7 +35,7 @@ export const getAllPostsByMateria = (materia: string) => {
 };
 
 export const getMateria = () => {
-  const materias = fs.readdirSync("public/posts");
+  const materias = fs.readdirSync(TakePath());
 
   return { materias };
 };
