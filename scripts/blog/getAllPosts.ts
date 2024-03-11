@@ -4,11 +4,11 @@ import { remark } from "remark";
 import remarkHTML from "remark-html";
 
 export const getAllPostsByMateria = (materia: string) => {
-  const allPostsFileNames = fs.readdirSync(`./_posts/${materia}`);
+  const allPostsFileNames = fs.readdirSync(`public/posts/${materia}`);
 
   const posts = allPostsFileNames.map((filename: string) => {
     const fileContent = fs.readFileSync(
-      `./_posts/${materia}/${filename}`,
+      `public/posts/${materia}/${filename}`,
       "utf-8"
     );
     const { content, data: metadata } = grayMatter(fileContent);
@@ -30,7 +30,7 @@ export const getAllPostsByMateria = (materia: string) => {
 };
 
 export const getMateria = () => {
-  const materias = fs.readdirSync("./_posts");
+  const materias = fs.readdirSync("public/posts");
 
   return { materias };
 };
