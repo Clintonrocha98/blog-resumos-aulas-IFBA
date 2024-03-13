@@ -4,13 +4,14 @@ import path from "path";
 import { remark } from "remark";
 import remarkHTML from "remark-html";
 
+
 const TakePath = (pathName: string = "") => {
   return path.join(process.cwd(), "public", "posts", pathName);
 };
 
 export const getAllPostsByMateria = (materia: string) => {
   const allPostsFileNames = fs.readdirSync(TakePath(materia));
-  
+
   const posts = allPostsFileNames.map((filename: string) => {
     const fileContent = fs.readFileSync(
       `public/posts/${materia}/${filename}`,

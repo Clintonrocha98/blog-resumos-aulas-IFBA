@@ -1,7 +1,7 @@
 ---
-title: 'Apostila e links'
-date: '07-03-2024'
-excerpt: 'Apostila com assuntos e explicações sobre conjuntos e junto a isso alguns links'
+title: "Apostila e links"
+date: "07-03-2024"
+excerpt: "Apostila com assuntos e explicações sobre conjuntos e junto a isso alguns links"
 ---
 # Apostila, conteúdos de apoio e links
 
@@ -24,6 +24,7 @@ Algumas informações base para te ajudar a entender o conteúdo da apostila.
 
 [Playlist sobre conjuntos](https://youtu.be/0aUEDxYjZg8?list=PLTPg64KdGgYgTXWPsURDnPBd7GUwPVBLx)
 [Mais material sobre conjuntos](https://www.todamateria.com.br/matematica/conjuntos/)
+[Link para a apostila do professor](https://docs.google.com/document/d/10ZzvgMB53ep6j3X7zqKyarY8lwWgKSax/edit?rtpof=true&sd=true)
 
 # Glossário
 
@@ -34,7 +35,7 @@ Alguns símbolos que você vai ver na aula e provavelmente não sabe o significa
 - ⊄ - não contido 
 - ⊃ - contem 
 - ⊅ - não contem
-- `|` - Em conjuntos, o símbolo `|` é geralmente lido como "tais que" ou "onde", indicando a descrição da propriedade que os elementos do conjunto devem satisfazer. Por exemplo, na expressão "{x | x é um número natural par menor que 12 e maior que 0}", o "|" é lido como "tais que" ou "onde".
+- `|` - Em conjuntos, o símbolo `|` é geralmente lido como "tais que" ou "onde", indicando a descrição da propriedade que os elementos do conjunto devem satisfazer. Por exemplo, na expressão "{x | x é um número natural par menor que 12 e maior que 0}", o `|` é lido como "tais que" ou "onde".
 - ∪ - união 
 - ∩ - interseção 
 - ∨ - disjunção lógica ou "ou", indica que pelo menos uma das afirmações conectadas é verdadeira
@@ -173,7 +174,7 @@ g) 2 ∈ A        h) 2 ∉ B       i) 2 ∈ C         j) 5 �
 
 4) Dê o conjunto solução das equações, observando o conjuntos universo **U**.
 
-a) x+5 = 0,  **U** = ℕ                b) x+5 = 0,  **U** = ℤ                  
+a) x+5 = 0,  **U** =ℕ                b) x+5 = 0,  **U** = ℤ                  
 
 c) x+5 = 0,  **U** = ℚ               d) x² + 5x - 6 = 0, **U** = ℕ     
 
@@ -216,11 +217,11 @@ Dados os conjuntos A e B, indicaremos por A ∪ B ao conjunto formado por todos 
 
 Exemplos
 
-a) Dados os conjuntos A = {1,2,3} e B = {5,6,7), temos A ∪ B = {1,2,3,5,6,7}.
+a) Dados os conjuntos A = {1,2,3} e B = {5,6,7}, temos A ∪ B = {1,2,3,5,6,7}.
 
 b) Dados os conjuntos A = {1,2,3,4} e B = {3,4,5,6,7}, temos A ∪ B = {1,2,3,4,5,6,7}
 
-c) Dados os conjuntos A = {3,6,9} e B = {1,2,3,4,5,6,7,8,9), temos A ∪ B = {1,2,3,4,5,6,7,8,9}.
+c) Dados os conjuntos A = {3,6,9} e B = {1,2,3,4,5,6,7,8,9}, temos A ∪ B = {1,2,3,4,5,6,7,8,9}.
 
 Representação da UNIÃO dos conjuntos A e B pelo diagrama de Venn
 
@@ -232,11 +233,11 @@ Dados os conjuntos A e B, indicaremos por A∩B ao conjunto formado por todos os
 
 Exemplos
 
-a) Dados os conjuntos A = {1,2,3} e B = {5,6,7), temos A∪B = { }.
+a) Dados os conjuntos A = {1,2,3} e B = {5,6,7}, temos A∪B = { }.
 
 b) Dados os conjuntos A = {1,2,3,4} e B = {3,4,5,6,7}, temos A∪B = {3,4}
 
-c) Dados os conjuntos A = {3,6,9} e B = {1,2,3,4,5,6,7,8,9), temos A∪B = {3,6,9}.
+c) Dados os conjuntos A = {3,6,9} e B = {1,2,3,4,5,6,7,8,9}, temos A∪B = {3,6,9}.
 
 Representação da INTERSECÇÃO dos conjuntos A e B pelo diagrama de Venn
 
@@ -248,11 +249,11 @@ Dados os conjuntos A e B, a diferença de A e B é o conjunto formado pelos elem
 
 Exemplos:
 
-a) Dados os conjuntos A = {1,2,3} e B = {5,6,7), temos A – B = {1,2,3}.
+a) Dados os conjuntos A = {1,2,3} e B = {5,6,7}, temos A – B = {1,2,3}.
 
 b) Dados os conjuntos A = {1,2,3,4} e B = {3,4,5,6,7}, temos A – B = {1,2}
 
-c) Dados os conjuntos A = {1,2,3,4,5,6,7,8,9) e B = {3,6,9), temos A – B = {1,2,4,5,7,8}.
+c) Dados os conjuntos A = {1,2,3,4,5,6,7,8,9} e B = {3,6,9}, temos A – B = {1,2,4,5,7,8}.
 
 Representação da DIFERENÇA dos conjuntos A e B pelo diagrama de Venn
 
@@ -262,26 +263,22 @@ Representação da DIFERENÇA dos conjuntos A e B pelo diagrama de Venn
 
 Complementar de um conjunto B em relação ao conjunto A, com B ⊂ A, é definido por:
 
-$$
-A_{C}^{B} = {x|x∈A∧x∉B} = A – B
-$$
-Exemplo
+<img src="https://latex.codecogs.com/svg.image?A_{C}^{B}={x|x&space;A&space;x&space;B}=A&space;B"/>
+
+Exemplo: 
 
 Dado o conjunto:
-$$
-A = \left\{ {0,1,2,3,4,5,6}\right\}
-$$
-$$
-B =\left\{ {1,3,5}\right\}
-$$
-$$
-C_{A}^{B} = \left\{ {0,2,4,6}\right\}
-$$
+
+<img src="https://latex.codecogs.com/svg.image?A=\left\{{0,1,2,3,4,5,6}\right\}"/>
+
+<img src="https://latex.codecogs.com/svg.image?B=\left\{{1,3,5}\right\}"/>
+
+<img src="https://latex.codecogs.com/svg.image?C_{A}^{B}=\left\{{0,2,4,6}\right\}"/>
 
 <iframe src="https://drive.google.com/file/d/1SMZ5h1G66AiZRMVzAH9Y-q2tY5SK8aiN/preview" width="640" height="480" allow="autoplay"></iframe>
 
 
-Exercícios
+Exercícios:
 
 1) Dados os conjuntos:
 
@@ -331,27 +328,18 @@ M = {x|x é um número natural múltiplo de 3}.
 
 Determine:
 
-$$
- \text{a) }N^{-}P =
-$$
-$$
- \text{b) }N^{-}I =
-$$
-$$
- \text{c) }N^{-}M =
-$$
-$$
- \text{d) }P^{-}I =
-$$
-$$
- \text{d) }P^{-}I =
-$$
-$$
- \text{e) }P^{-}M =
-$$
-$$
- \text{f) }I^{-}M =
-$$
+<img src="https://latex.codecogs.com/svg.image?\text{a)}N^{-}P="/>
+
+<img src="https://latex.codecogs.com/svg.image?\text{b)}N^{-}I="/>
+
+<img src="https://latex.codecogs.com/svg.image?\text{c) }N^{-}M ="/>
+
+<img src="https://latex.codecogs.com/svg.image?\text{d) }P^{-}I ="/>
+
+<img src="https://latex.codecogs.com/svg.image?\text{e) }P^{-}M ="/>
+
+<img src="https://latex.codecogs.com/svg.image?\text{f) }I^{-}M ="/>
+
 
 3) Dados os conjuntos:
 
@@ -365,80 +353,79 @@ R = {x|x é um número natural múltiplo de 5}.
 
 Determine:
 
-$$
- \text{a) }C_{N}^{P} =
-$$
+<img src="https://latex.codecogs.com/svg.image?\text{a) }C_{N}^{P} ="/>
 
-$$
- \text{b) } C_{N}^{Q} =
-$$
+<img src="https://latex.codecogs.com/svg.image?\text{b) } C_{N}^{Q} ="/>
 
-$$
-\text{c) } C_{N}^{R} =
-$$
+<img src="https://latex.codecogs.com/svg.image?\text{c) } C_{N}^{R} ="/>
+
 # Conjuntos numéricos
 
 ### Naturais
 
-$$
-\text{Conjunto dos números naturais } \mathbb{N} = \left\{ {0,1,2,3,4 ...}\right\}
-$$
-$$
-\text{Conjunto dos números naturais não nulos } \mathbb{N^{*}} =  \left\{ {1,2,3,4 ...}\right\}
-$$
+Conjunto dos numeros naturais: 
+
+<img src="https://latex.codecogs.com/svg.image?\mathbb{N}=\left\{{0,1,2,3,4...}\right\}"/>
+
+Conjunto dos numeros naturais não nulos:
+
+<img src="https://latex.codecogs.com/svg.image?\mathbb{N^{*}}=\left\{{1,2,3,4...}\right\}"/>
+
 ### Inteiros
 
-$$
-\text{Conjunto dos números inteiros } \mathbb{Z} = \left\{ {...-3,-2,-1,0,1,2,3...}\right\}
-$$
-$$
-\text{Conjunto dos números inteiros não nulos } \mathbb{Z^{*}} = \left\{ {...-3,-2,-1,0,1,2,3 ...}\right\}
-$$
-$$
-\text{Conjunto dos números inteiros não negativos } \mathbb{Z_{+}} = \left\{ {0,1,2,3...}\right\}
-$$
-$$
-\text{Conjunto dos números inteiros não positivos } \mathbb{Z_{-}} = \left\{ {...-3,-2,-1,0}\right\}
-$$
-$$
-\text{Conjunto dos números inteiros positivos } \mathbb{Z_{+}^{*}} = \left\{ {1,2,3 ...}\right\}
-$$
-$$
-\text{Conjunto dos números inteiros negativos } \mathbb{Z_{-}^{*}} = \left\{ {...-3,-2,-1}\right\}
-$$
+Conjunto dos numeros inteiros:
+
+<img src="https://latex.codecogs.com/svg.image?\mathbb{Z}=\left\{{...-3,-2,-1,0,1,2,3...}\right\}"/>
+
+Conjunto dos numeros inteiros não nulos:
+
+<img src="https://latex.codecogs.com/svg.image?\mathbb{Z^{*}}=\left\{{...-3,-2,-1,0,1,2,3...}\right\}"/>
+
+Conjunto dos numeros não negativos:
+
+<img src="https://latex.codecogs.com/svg.image?\mathbb{Z_{&plus;}}=\left\{{0,1,2,3...}\right\}"/>
+
+Conjunto dos numeros inteiros não positivos:
+
+<img src="https://latex.codecogs.com/svg.image?\mathbb{Z_{-}}=\left\{{...-3,-2,-1,0}\right\}"/>
+
+Conjunto dos numeros inteiros positivos:
+
+<img src="https://latex.codecogs.com/svg.image?\mathbb{Z_{&plus;}^{*}}=\left\{{1,2,3...}\right\}"/>
+
+Conjunto dos numeros inteiros negativos: 
+
+<img src="https://latex.codecogs.com/svg.image?\mathbb{Z_{-}^{*}}=\left\{{...-3,-2,-1}\right\}"/>
 
 ## Conjunto dos números racionais
 
 Números racionais são números que representam uma razão entre dois números inteiros, sendo o segundo diferente de zero.
 
+Indicamos por:
 
-$$
-\text{Indicamos por } \mathbb{Q} = {x|x = \frac{a}{b}\text{, com }   a\in \mathbb{Z}\wedge b \in \mathbb{Z^{*}} }
-$$
+<img src="https://latex.codecogs.com/svg.image?\mathbb{Q}={x|x=\frac{a}{b}\text{,com}a\in\mathbb{Z}\wedge&space;b\in\mathbb{Z^{*}}}"/>
 
 Os números racionais podem ser representados por decimais finitos (podendo ser inteiro) e decimais infinitos (dízima periódica).
 
 Exemplos:
 
-$$
-\text{a) }\frac{4}{10}=0,4 \text{ número com representação decimal finita} 
-$$
+Número com representação decimal finita:
 
-$$
-\text{b) }\frac{32}{16}=2 \text{ número com representação decimal finita} 
-$$
+<img src="https://latex.codecogs.com/svg.image?\text{a)}\frac{4}{10}=0,4"/> 
 
-$$
-\text{c) }\frac{2}{6}=0,333 ... \text{ número com representação decimal infinita, dízima periódica} 
-$$
+Número com representação decimal finita:
+
+<img src="https://latex.codecogs.com/svg.image?\text{b)}\frac{32}{16}=2"/>
+
+Número com representação decimal infinita, dízima periódica:
+
+<img src="https://latex.codecogs.com/svg.image?\text{c)}\frac{2}{6}=0,333..."/>
 
 ## Conjunto dos números irracionais
 
 O conjunto dos números irracionais é formado por todos os números que não podem ser expressos na forma:
 
-$$
-\frac{a}{b} \text{ com a} \in \mathbb{Z} \wedge \in \mathbb{Z^{*}}
-$$
+<img src="https://latex.codecogs.com/svg.image?\frac{a}{b}\text{ com&space;a}\in\mathbb{Z}\wedge\in\mathbb{Z^{*}}"/>
 
 Assim os números irracionais são aqueles cujo representação decimal é infinita e não é uma dízima periódica.
 
@@ -446,21 +433,20 @@ Exemplos:
 
 a) A raiz quadrada de um número natural que não é quadrado perfeito:
 
-$$
-\sqrt{2},\sqrt{3},\sqrt{5},\sqrt{12},\sqrt{15}.
-$$
+<img src="https://latex.codecogs.com/svg.image?\sqrt{2},\sqrt{3},\sqrt{5},\sqrt{12},\sqrt{15}."/>
+
 b) A raiz cúbica de um número natural que não é cubo perfeito:
-$$
-\sqrt[3]{2},\sqrt[3]{4},\sqrt[3]{5},\sqrt[3]{10}.
-$$
+
+<img src="https://latex.codecogs.com/svg.image?\sqrt[3]{2},\sqrt[3]{4},\sqrt[3]{5},\sqrt[3]{10}."/>
+
 c) 0,2002000200002... observemos que a quantidade de zeros que sucede o algarismo 2 aumenta indefinidamente.
 
 ## Conjunto dos números reais
 
 O conjunto dos números reais é a união entre os conjuntos dos números racionais e o conjunto dos números irracionais. 
-$$
-\mathbb{R} = \mathbb{Q} \cup \mathbb{I}
-$$
+
+<img src="https://latex.codecogs.com/svg.image?\mathbb{R}=\mathbb{Q}\cup\mathbb{I}"/>
+
 (onde Q é o conjunto dos números racionais e I o conjunto dos números irracionais)
 
 # Intervalos
