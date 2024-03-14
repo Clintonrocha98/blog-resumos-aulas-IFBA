@@ -11,6 +11,23 @@ h2 {
 p {
   @apply text-justify;
 }
-li{
+li {
   @apply list-disc;
+}
+
+@layer components {
+  .btn-custom {
+    a {
+      padding: 0.5rem 1rem;
+      border: 2px solid #008000;
+      background-color: #008000;
+      color: #fff;
+      border-radius: 0.25rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      &:hover {
+        background-color: #4ca64c;
+      }
+    }
+  }
 }

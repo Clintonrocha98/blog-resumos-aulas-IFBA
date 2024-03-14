@@ -24,7 +24,9 @@ export const getAllPostsByMateria = (materia: string) => {
 
     return {
       metadata: {
-        ...metadata,
+        title: metadata?.title,
+        date: metadata?.date,
+        excerpt: metadata?.excerpt,
         slug: filename.replace(".md", ""),
       },
       content: htmlContent,

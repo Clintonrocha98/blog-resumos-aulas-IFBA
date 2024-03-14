@@ -14,7 +14,7 @@ export const RenderPost = ({ materias, post }: renderPostProp) => {
 
   // eslint-disable-next-line react/no-children-prop
   return (
-    <section className="max-w-sm md:max-w-3xl lg:max-w-5xl sm:px-7 ml-auto mr-auto flex flex-col gap-5 mb-6 ">
+    <section className="max-w-sm md:max-w-3xl lg:max-w-5xl sm:px-7 ml-auto mr-auto flex flex-col gap-5 mb-6 btn-custom">
       {parse(thePost.content)}
     </section>
   );
