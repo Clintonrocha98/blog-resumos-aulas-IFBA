@@ -21,8 +21,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <RenderMateriasLinks />
         {children}
-        <footer className="max-w-5xl ml-auto mr-auto flex items-center justify-center h-10 border-t-2 border-gray-200">
-          <p className="flex justify-center text-center">
+        <footer className="max-w-5xl ml-auto mr-auto flex items-center justify-center border-t-2 border-gray-200">
+          <p className="flex justify-center text-center max-sm:text-sm">
             Feito de aluno para aluno by: {"  "}
             <a
               href="https://twitter.com/clintonrocha98"

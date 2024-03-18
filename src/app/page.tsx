@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <section className="max-w-sm md:max-w-3xl lg:max-w-5xl sm:px-7 ml-auto mr-auto flex flex-col gap-5 mt-4 ">
+    <section className="max-w-sm md:max-w-3xl lg:max-w-5xl px-7 ml-auto mr-auto flex flex-col gap-5 mt-4 ">
       <header>
         <h1>Bem-vindo ao Blog de resumos das aulas que vão ter no ifba</h1>
         <p>Olá, estudantes!</p>
