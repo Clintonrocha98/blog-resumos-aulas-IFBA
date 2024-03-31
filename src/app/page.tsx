@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <section className="max-w-sm md:max-w-3xl lg:max-w-5xl px-7 ml-auto mr-auto flex flex-col gap-5 mt-4 ">
       <header>
-        <h1>Bem-vindo ao Blog de resumos das aulas que vão ter no ifba</h1>
+        <h1>Bem-vindo(a)</h1>
         <p>Olá, estudantes!</p>
         <p>
           Este é um espaço dedicado a compartilhar resumos de aulas, temas
@@ -47,8 +47,7 @@ export default function Home() {
             Clinton Rocha
           </a>{" "}
           e sou estudante do IFBA. Este blog foi criado com o objetivo de
-          compartilhar conhecimento e ajudar meus colegas de classe a alcançarem
-          sucesso acadêmico.
+          compartilhar o conteudo que foi me passado nas aulas dentro do IFBA.
         </p>
         <p>
           Sinta-se à vontade para explorar os diferentes tópicos abordados e
